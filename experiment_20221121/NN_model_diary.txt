@@ -1,0 +1,8 @@
+20221207_0045_85.7%_epoch7_batch300 新增batch訓練資料shuffle
+20221207_0147_75.41%_epoch7_batch300 將資料集threshold改為人體部位10以上
+20221207_0351_87.37%_epoch7_batch100 修正batch
+20221207_0442_86.74%_epoch7_batch100 新增loss plot
+20221207_0459_89.18%_epoch8_batch150 改回原資料集
+20221209_1726_96.84%_epoch15_batch150 新增cross_validation
+20221217_2306_90.2%_epoch15_batch150 重新對資料集做特徵擷取(single skeleton per img)
+20221221_0025_89.9%_epoch15_batch150 資料標準化
