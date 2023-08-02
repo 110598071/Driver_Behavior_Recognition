@@ -12,22 +12,22 @@
     - 將dataset及model資料夾放在/Driver_Behavior_Recognition/experiment_20230211/
     - 可於ISLab NAS下載
 
-Step 4：環境建置
-1. GPU：2080Ti
-2. PyTorch 1.12.0+cu113
-    ```pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 torchaudio===0.12.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html```
-4. CUDA 11.3
-5. CUDNN 8.5.0
-6. download relative package
-    ```pip install -r requirements.txt```
+4. 環境建置
+    - GPU：2080Ti
+    - PyTorch 1.12.0+cu113
+        - ```pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 torchaudio===0.12.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html```
+    - CUDA 11.3
+    - CUDNN 8.5.0
+    - download relative package
+        - ```pip install -r requirements.txt```
     
 ---
 ## 檔案及資料夾結構說明
 
-Repo中含有兩個命名開頭為experiment的資料夾
-分別為兩段時期所做的實驗記錄
-多數論文實驗成果皆以experiment_20230211紀錄之
-註：有些檔案命名或程式碼會怪怪的或有點亂，請見諒
+Repo中含有兩個命名開頭為experiment的資料夾  
+分別為兩段時期所做的實驗記錄  
+多數論文實驗成果皆以experiment_20230211紀錄之  
+註：有些檔案命名或程式碼會怪怪的或有點亂，請見諒  
 
 - experiment_20230211資料夾結構
     ```
