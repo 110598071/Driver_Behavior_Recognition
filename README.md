@@ -202,8 +202,20 @@ Repo中含有兩個命名開頭為experiment的資料夾
         - Image_dataset.py：CNN訓練時所使用的Dataset以及影像前處理函數(ex. blur、hog)
         - PSO.py：粒子群演算法超參數最佳化(論文沒用到，未來可嘗試)
         - pytorch_config.py：Perceptron模型訓練的前置處理
-        - pytorch_train_model.py：用於load CNN pretrained model
+        - pytorch_model.py：用於load CNN pretrained model
+        - pytorch_progress.py：CNN及Perceptron模型的訓練流程
+        - pytorch_train_model.py：CNN及Perceptron模型訓練的主程式
+            - 上方有多行超參數設置(ex. seed、batch siez、epochs、lr scheduler)
+            - 主程式中含有多個註解起來的不同模型的訓練方法，可供參考
+            - model_transfer_learning：遷移學習
+            - model_origin_training：從頭訓練
+            - find_best_seed：Perceptron尋找最佳seed
         - pytorch_util.py：存放CNN及Perceptron模型訓練過程中會重複使用到的函數
+        - pytorch_voting.py：曾經嘗試使用voting方式進行concate但成效不彰，useless
+        - skeleton_util.py：用於OpenPose偵測人體骨骼時將部位資料轉換為特徵資料
+        - test.py：用於測試各種天馬行空的想法，也留了許多腳印，或許可以參考一下
+        - train_with_openpose.py：單純使用OpenPose偵測到的部位資料轉換為特徵資料再進行模型訓練
+
         - pytorch_voting.py：曾經嘗試使用voting方式進行concate但成效不彰，useless
         - skeleton_util.py：用於OpenPose偵測人體骨骼時將部位資料轉換為特徵資料
         - test.py：用於測試各種天馬行空的想法，也留了許多腳印，或許可以參考一下
