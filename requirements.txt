@@ -1,0 +1,11 @@
+opencv-python
+Pillow
+numpy
+scikit-image
+scikit-learn
+matplotlib
+tqdm
+optuna
+imbalanced-learn
+seaborn
+pandas
