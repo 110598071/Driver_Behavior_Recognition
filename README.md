@@ -10,7 +10,7 @@
 
 3. 下載AUC Dataset及Milestone Model
     - 將dataset及model資料夾放在/Driver_Behavior_Recognition/experiment_20230211/
-    - XXX
+    - 可於ISLab NAS下載
 
 Step 4：環境建置
 1. GPU：2080Ti
